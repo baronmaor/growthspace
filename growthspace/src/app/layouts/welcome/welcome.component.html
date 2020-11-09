@@ -30,7 +30,7 @@
                     <span class="form-txt">{{content.organizationTxt}}</span>
                 </div>
                 <div class="form-btn-containar">
-                    <button class="btn btn-form btn-form-organization" type="button" [value]="years.txt"  (click)="yearsChange(years)" [ngClass]="{'btn-active':years.active==1}" *ngFor="let years of content.organizationYears">{{years.txt}}</button>
+                    <button class="btn btn-form btn-form-organization" type="button" [value]="years.txt"  (click)="yearsChange(years)" [ngClass]="{'btn-active':years.active==1}" *ngFor="let years of content.amountOfYears">{{years.txt}}</button>
                 </div>
             </div>
             <div class="employees">
@@ -38,7 +38,7 @@
                     <span class="form-txt organization-txt">{{content.employeesTxt}}</span>
                 </div>
                 <div class="form-btn-containar">
-                <button class="btn btn-form" type="button"  (click)="employeeChange(amount)" [ngClass]="{'btn-active':amount.active==1}" *ngFor="let amount of content.employeesAmount">{{amount.txt}}</button>
+                <button class="btn btn-form" type="button"  (click)="employeeChange(amount)" [ngClass]="{'btn-active':amount.active==1}" *ngFor="let amount of content.amountOfEmployees">{{amount.txt}}</button>
                 </div>
             </div>
             <div class="phone">

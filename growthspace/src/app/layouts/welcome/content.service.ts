@@ -14,9 +14,9 @@ export class ContentService {
     selectionHeader: 'I’m in :',
     organizationTxt: 'Years with the organization',
     // tslint:disable-next-line: max-line-length
-    organizationYears: [{active: -1, txt: '1-3'}, {active: -1, txt: '4-6'}, {active: -1, txt: '7-10'}, {active: -1, txt: '11-20'}, {active: -1, txt: '20+'}],
+    amountOfYears: [{active: -1, txt: '1-3'}, {active: -1, txt: '4-6'}, {active: -1, txt: '7-10'}, {active: -1, txt: '11-20'}, {active: -1, txt: '20+'}],
     // tslint:disable-next-line: max-line-length
-    employeesAmount: [ {active: -1, txt: '0'}, {active: -1, txt: '1-3'}, {active: -1, txt: '4-10'}, {active: -1, txt: '11-30'}, {active: -1, txt: '30-100'}],
+    amountOfEmployees: [ {active: -1, txt: '0'}, {active: -1, txt: '1-3'}, {active: -1, txt: '4-10'}, {active: -1, txt: '11-30'}, {active: -1, txt: '30-100'}],
     employeesTxt: 'Number of employees under my direct managment',
     phoneNumerTxt: 'Phone number (optional)',
     phoneNumerPlaceHolder: '+972 555 555 555',

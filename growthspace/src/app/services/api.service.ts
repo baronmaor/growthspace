@@ -5,7 +5,7 @@ import { HttpClient, HttpParams  } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  backendUrl = 'http://baron-maor.co.il:5555';
+  backendUrl = 'http://127.0.0.1:5555';
   constructor(private httpClient: HttpClient) { }
 
   public getUser = (userId)=>{
